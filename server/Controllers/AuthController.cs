@@ -1,17 +1,16 @@
 using Microsoft.AspNetCore.Mvc;
-using AuthService.Data;
 using System.Threading.Tasks;
-using AuthService.Models;
-using AuthService.Dtos;
-
 using Microsoft.Extensions.Configuration;
 using System.IdentityModel.Tokens.Jwt;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using System;
+using Server.Data;
+using Server.Dtos;
+using Server.Models;
 
-namespace AuthService.Controllers
+namespace Server.Controllers
 {
     [Route("api/[controller]")]
     public class AuthController : Controller

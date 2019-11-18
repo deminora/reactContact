@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace AuthService.Models
+namespace Server.Models
 {
     public class User
     {

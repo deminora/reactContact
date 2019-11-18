@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace AuthService.Migrations
+namespace Server.Migrations
 {
     public partial class InitialCreate : Migration
     {

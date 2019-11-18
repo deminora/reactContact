@@ -1,4 +1,4 @@
-namespace AuthService.Dtos
+namespace Server.Dtos
 {
     public class UserForLoginDto
     {

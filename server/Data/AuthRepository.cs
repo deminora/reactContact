@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
-using AuthService.Models;
 using Microsoft.EntityFrameworkCore;
+using Server.Models;
 
-namespace AuthService.Data
+namespace Server.Data
 {
     public class AuthRepository : IAuthRepository
     {

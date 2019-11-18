@@ -1,4 +1,4 @@
-namespace AuthService.Models
+namespace Server.Models
 {
     public class Value
     {
